@@ -1,13 +1,13 @@
 # myWebsite
 my official website
 
-ToDo List:
+ToDo List:<br>
 	- Fix the social media buttons on AboutMe page<br>
 	- Assign the Blog Categories to the right pages<br>
-	- Contact Page!
-	- Portfolio:
-		- Vector Illustrations
-		- 2D Graphics
-		- 3D Renders
-		- Typography
+	- Contact Page!<br>
+	- Portfolio:<br>
+		- Vector Illustrations<br>
+		- 2D Graphics<br>
+		- 3D Renders<br>
+		- Typography<br>
 		- Code
