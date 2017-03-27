@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Oskar Klonowski</title>
+    <!-- My CSS Stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Footer CSS Stylesheet -->
+    <link href="css/footer.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+<div id="wodospad-ja" class="col-md-5">
+<img src="images/me/about-me.jpg" alt="AboutMeProfilePhoto" height="777" width="560">
+</div>
+<div id="las-ja" class="col-md-5 hide">
+<img src="images/me/las-ja.jpg" alt="AboutMeProfilePhoto" height="777" width="560">
+</div>
+<div class="col-md-7">
+	<img src="images/Wave-Oskar-Layered.png" alt="About-Logo" height="200" width="800">
+	<p class="">
+	I’m Oskar. I come from Poland and currently live all over the world.<br>
+	I attend ThinkGlobalSchool since 2014, every three moths we change the country we study in.<br>
+	With the school, I have been to over eight countries with the school.<br>
+	In my life before the age of 16, I managed to visit over 45 countries on each continent except Antarctica.<br> 
+	I love travelling, and I will argue with anyone that it’s the best way to learn and evolve as a person.<br>
+	In my free time, I do logo design and 3D animations as well as programming.
+	</p>
+	<button id="special-btn">Click Me to swap the photo</button>
+	<button class="btn btn-dark"><a href="index.html">Back to Site</a></button>
+</div>
+
+
+
+
+
+
+
+
+
+	<script>
+		var imageProfile = document.getElementById('wodospad-ja');
+		var secondImageProfile = document.getElementById('las-ja');
+		var specialBtn = document.getElementById('special-btn');
+		specialBtn.addEventListener("click", switchPhoto);
+
+		function switchPhoto() {
+			imageProfile.className = 'col-md-5 hide'
+			secondImageProfile.className = 'col-md-5'
+		}
+
+	</script>
+	<!-- My JS file -->
+	<script src="js/main.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
