@@ -10,4 +10,6 @@ ToDo List:<br>
 		- 2D Graphics<br>
 		- 3D Renders<br>
 		- Typography<br>
-		- Code
+		- Code<br>
+	- Asign GitHub to all navbar's<br>
+	- Google Font, Roboto all Blog!
